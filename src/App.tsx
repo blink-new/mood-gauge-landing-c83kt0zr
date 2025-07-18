@@ -39,7 +39,10 @@ function App() {
               <a href="#features" className="text-gray-600 hover:text-gray-900 transition-colors">Features</a>
               <a href="#how-it-works" className="text-gray-600 hover:text-gray-900 transition-colors">How it Works</a>
               <a href="#testimonials" className="text-gray-600 hover:text-gray-900 transition-colors">Testimonials</a>
-              <Button className="gradient-bg text-white hover:opacity-90">
+              <Button 
+                className="gradient-bg text-white hover:opacity-90"
+                onClick={() => window.open('https://9000-firebase-studio-1752743896990.cluster-oayqgyglpfgseqclbygurw4xd4.cloudworkstations.dev', '_blank')}
+              >
                 Get Started
               </Button>
             </div>
@@ -60,7 +63,10 @@ function App() {
                 <a href="#features" className="text-gray-600 hover:text-gray-900 transition-colors">Features</a>
                 <a href="#how-it-works" className="text-gray-600 hover:text-gray-900 transition-colors">How it Works</a>
                 <a href="#testimonials" className="text-gray-600 hover:text-gray-900 transition-colors">Testimonials</a>
-                <Button className="gradient-bg text-white hover:opacity-90 w-full">
+                <Button 
+                  className="gradient-bg text-white hover:opacity-90 w-full"
+                  onClick={() => window.open('https://9000-firebase-studio-1752743896990.cluster-oayqgyglpfgseqclbygurw4xd4.cloudworkstations.dev', '_blank')}
+                >
                   Get Started
                 </Button>
               </div>
@@ -85,12 +91,16 @@ function App() {
               before meetings start. Create more productive, empathetic, and effective collaborations.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button size="lg" className="gradient-bg text-white hover:opacity-90 px-8 py-3">
+              <Button 
+                size="lg" 
+                className="gradient-bg text-white hover:opacity-90 px-8 py-3"
+                onClick={() => window.open('https://9000-firebase-studio-1752743896990.cluster-oayqgyglpfgseqclbygurw4xd4.cloudworkstations.dev', '_blank')}
+              >
                 Start Free Trial
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <Button size="lg" variant="outline" className="px-8 py-3">
-                Watch Demo
+                Book a Demo
               </Button>
             </div>
           </div>
@@ -117,13 +127,13 @@ function App() {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="py-16 bg-black/20">
+      <section id="features" className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
               Why Teams Love Moods
             </h2>
-            <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Discover how emotional intelligence transforms your team's collaboration
             </p>
           </div>
@@ -205,13 +215,13 @@ function App() {
       </section>
 
       {/* How It Works Section */}
-      <section id="how-it-works" className="py-16">
+      <section id="how-it-works" className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
               How It Works
             </h2>
-            <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Simple steps to transform your team meetings
             </p>
           </div>
@@ -221,8 +231,8 @@ function App() {
               <div className="w-16 h-16 gradient-bg rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-2xl font-bold text-white">1</span>
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-white">Quick Check-In</h3>
-              <p className="text-gray-300">
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">Quick Check-In</h3>
+              <p className="text-gray-600">
                 Team members share their current mood with a simple, anonymous check-in before the meeting starts.
               </p>
             </div>
@@ -231,8 +241,8 @@ function App() {
               <div className="w-16 h-16 gradient-bg rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-2xl font-bold text-white">2</span>
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-white">Team Overview</h3>
-              <p className="text-gray-300">
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">Team Overview</h3>
+              <p className="text-gray-600">
                 Get an instant overview of your team's collective mood and energy levels for the meeting.
               </p>
             </div>
@@ -241,8 +251,8 @@ function App() {
               <div className="w-16 h-16 gradient-bg rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-2xl font-bold text-white">3</span>
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-white">Better Meetings</h3>
-              <p className="text-gray-300">
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">Better Meetings</h3>
+              <p className="text-gray-600">
                 Adapt your meeting style and approach based on the team's emotional state for better outcomes.
               </p>
             </div>
@@ -251,13 +261,13 @@ function App() {
       </section>
 
       {/* Testimonials Section */}
-      <section id="testimonials" className="py-16 bg-black/20">
+      <section id="testimonials" className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
               What Teams Are Saying
             </h2>
-            <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               See how Moods is transforming team collaboration
             </p>
           </div>
@@ -343,7 +353,11 @@ function App() {
             productive, and successful meetings.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button size="lg" className="bg-white text-purple-600 hover:bg-gray-50 px-8 py-3">
+            <Button 
+              size="lg" 
+              className="bg-white text-purple-600 hover:bg-gray-50 px-8 py-3"
+              onClick={() => window.open('https://9000-firebase-studio-1752743896990.cluster-oayqgyglpfgseqclbygurw4xd4.cloudworkstations.dev', '_blank')}
+            >
               Start Your Free Trial
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
